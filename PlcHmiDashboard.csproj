@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>disable</Nullable>
+    <UseWPF>true</UseWPF>
+    <RootNamespace>PlcHmiDashboard</RootNamespace>
+    <AssemblyName>PlcHmiDashboard</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Sharp7: lightweight open-source S7 communication library, used to talk to PLCSIM / a real S7-1200/1500 -->
+    <PackageReference Include="Sharp7" Version="1.1.84" />
+  </ItemGroup>
+
+</Project>
