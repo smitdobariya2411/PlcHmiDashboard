@@ -1,4 +1,4 @@
-	# Body Shop Station 3 - Robotic Spot-Welding Cell (SCADA/HMI)
+	# Body Shop Station - Robotic Spot-Welding Cell (SCADA/HMI)
 
 A WPF desktop SCADA/HMI application modeling a real automotive process: **a robotic
 spot-welding cell on a Body-in-White (BIW) assembly line**. A car body arrives, the fixture
